@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<my:myFields xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2023-09-13T10:30:00">
+  <my:EmployeeInfo>
+    <my:EmployeeName>John Doe</my:EmployeeName>
+    <my:EmployeeID>E12345</my:EmployeeID>
+    <my:Department>Engineering</my:Department>
+    <my:Email>john.doe@company.com</my:Email>
+    <my:PhoneNumber>555-1234</my:PhoneNumber>
+    <my:HireDate>2020-01-15</my:HireDate>
+  </my:EmployeeInfo>
+  
+  <my:ProjectDetails>
+    <my:ProjectName>Web Portal Redesign</my:ProjectName>
+    <my:ProjectCode>PROJ-2023-001</my:ProjectCode>
+    <my:StartDate>2023-09-01</my:StartDate>
+    <my:EndDate>2024-03-31</my:EndDate>
+    <my:Budget>150000</my:Budget>
+    <my:Status>In Progress</my:Status>
+  </my:ProjectDetails>
+  
+  <my:TaskItems>
+    <my:Task>
+      <my:TaskName>Requirements Gathering</my:TaskName>
+      <my:AssignedTo>John Doe</my:AssignedTo>
+      <my:DueDate>2023-09-30</my:DueDate>
+      <my:Priority>High</my:Priority>
+      <my:IsComplete>true</my:IsComplete>
+    </my:Task>
+    
+    <my:Task>
+      <my:TaskName>Design Phase</my:TaskName>
+      <my:AssignedTo>Jane Smith</my:AssignedTo>
+      <my:DueDate>2023-10-31</my:DueDate>
+      <my:Priority>High</my:Priority>
+      <my:IsComplete>false</my:IsComplete>
+    </my:Task>
+    
+    <my:Task>
+      <my:TaskName>Development</my:TaskName>
+      <my:AssignedTo>John Doe</my:AssignedTo>
+      <my:DueDate>2024-02-28</my:DueDate>
+      <my:Priority>High</my:Priority>
+      <my:IsComplete>false</my:IsComplete>
+    </my:Task>
+  </my:TaskItems>
+  
+  <my:Comments>
+    <my:Comment timestamp="2023-09-15T10:30:00">Initial requirements received</my:Comment>
+    <my:Comment timestamp="2023-09-20T14:15:00">Team meeting scheduled</my:Comment>
+  </my:Comments>
+  
+  <my:Approvals>
+    <my:Manager>
+      <my:Name>Mike Johnson</my:Name>
+      <my:ApprovalDate>2023-09-10</my:ApprovalDate>
+      <my:Status>Approved</my:Status>
+    </my:Manager>
+  </my:Approvals>
+</my:myFields>
